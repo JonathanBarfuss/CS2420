@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/linked_array.h
+iostream
+-
+initializer_list
+-
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-04-JonathanBarfuss/src/main.cpp
+iostream
+-
+linked_array.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-04-JonathanBarfuss/src/linked_array.h
+
