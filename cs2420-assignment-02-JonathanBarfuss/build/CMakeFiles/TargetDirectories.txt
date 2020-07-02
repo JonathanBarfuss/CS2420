@@ -1,0 +1,4 @@
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-02-JonathanBarfuss/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-02-JonathanBarfuss/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-02-JonathanBarfuss/build/CMakeFiles/main.dir
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-02-JonathanBarfuss/build/CMakeFiles/tester.dir
