@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/priority_queue.h
+iostream
+-
+stdexcept
+-
+cmath
+-
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-08-JonathanBarfuss/src/main.cpp
+iostream
+-
+string
+-
+priority_queue.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-08-JonathanBarfuss/src/priority_queue.h
+
