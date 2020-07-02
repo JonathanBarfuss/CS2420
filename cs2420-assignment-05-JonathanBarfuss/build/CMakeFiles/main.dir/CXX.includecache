@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/queue.h
+stack.h
+../include/stack.h
+
+../include/stack.h
+stdexcept
+-
+
+../include/util_functions.h
+iostream
+-
+sstream
+-
+cctype
+-
+string
+-
+stack.h
+../include/stack.h
+queue.h
+../include/queue.h
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-05-JonathanBarfuss/src/main.cpp
+util_functions.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-05-JonathanBarfuss/src/util_functions.h
+string
+-
+iostream
+-
+
