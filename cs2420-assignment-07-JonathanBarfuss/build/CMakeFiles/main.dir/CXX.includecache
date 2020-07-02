@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bag.h
+iostream
+-
+
+../include/linked_list.h
+initializer_list
+-
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-07-JonathanBarfuss/src/main.cpp
+iostream
+-
+chrono
+-
+string
+-
+cstdlib
+-
+iomanip
+-
+random
+-
+linked_list.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-07-JonathanBarfuss/src/linked_list.h
+bag.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-07-JonathanBarfuss/src/bag.h
+
