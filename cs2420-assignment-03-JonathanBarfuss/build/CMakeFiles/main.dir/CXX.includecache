@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bag.h
+iostream
+-
+memory
+-
+string
+-
+stdexcept
+-
+
+../include/safe_bag.h
+iostream
+-
+memory
+-
+string
+-
+stdexcept
+-
+bag.h
+../include/bag.h
+
+../include/sorted_bag.h
+iostream
+-
+memory
+-
+string
+-
+stdexcept
+-
+safe_bag.h
+../include/safe_bag.h
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-03-JonathanBarfuss/src/main.cpp
+iostream
+-
+memory
+-
+bag.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-03-JonathanBarfuss/src/bag.h
+safe_bag.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-03-JonathanBarfuss/src/safe_bag.h
+sorted_bag.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-03-JonathanBarfuss/src/sorted_bag.h
+
