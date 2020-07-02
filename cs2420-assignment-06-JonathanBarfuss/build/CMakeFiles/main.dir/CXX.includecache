@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/chained_hashtable.h
+iostream
+-
+iomanip
+-
+hash_functions.h
+../include/hash_functions.h
+
+../include/hash_functions.h
+iostream
+-
+cmath
+-
+
+../include/linear_hashtable.h
+iostream
+-
+iomanip
+-
+string
+-
+hash_functions.h
+../include/hash_functions.h
+
+../include/quadratic_hashtable.h
+iostream
+-
+iomanip
+-
+string
+-
+hash_functions.h
+../include/hash_functions.h
+
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-06-JonathanBarfuss/src/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+chrono
+-
+random
+-
+linear_hashtable.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-06-JonathanBarfuss/src/linear_hashtable.h
+chained_hashtable.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-06-JonathanBarfuss/src/chained_hashtable.h
+quadratic_hashtable.h
+/mnt/c/Users/18jon/OneDrive/Documents/CS 2420/Assignments/cs2420-assignment-06-JonathanBarfuss/src/quadratic_hashtable.h
+
