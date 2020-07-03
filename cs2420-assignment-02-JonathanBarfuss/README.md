@@ -2,6 +2,7 @@
 Refactoring a date class to refresh students' C++ knowledge and skills.
 
 In this assignment the professor provided a portion of the code in "include/date.h" and my job was to do the following:
+
 -Add a second constructor that takes only a single year argument and initializes both month and day to 1.
 -Add a third constructor that takes two arguments for year and month and initializes day to 1.
 -Overload operator+ such that given a date object d, the expression d + n is the same as d.addDays(n) where n is the number of days to add.
